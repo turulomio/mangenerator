@@ -1,0 +1,18 @@
+Nueva release
+=============
+1) Cambiar la versión en toomanyfiles.py
+ ) Uncoment _ en toomayfiles y Makefile.py
+2) Modificar fichero CHANGELOG
+3) python3 Makefile --doc. 
+ ) lokalice es.po
+ ) python3 Makefile --doc
+4) Si cambia la salida del programa, acutalizar el gif con bash launch.sh. 
+ ) Actualizar el gif en myweb
+5) python3 Makefile --dist_sources y subirlo a sourceforge
+6) Subir versión al subversion
+6) Crear un nuevo ebuild con la nueva versión
+8) Subirlo al subversion del portage
+9) Modificar la pagina web
+   - Añádir noticia
+   - Añadir el releas svn e en la página
+10) Comprobar enlaces
