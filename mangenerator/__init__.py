@@ -1,7 +1,5 @@
-# Copyright Jonathan Hartley 2013. BSD 3-Clause license, see LICENSE file.
-#from .initialise import init, deinit, reinit, colorama_text
-#from .ansi import Fore, Back, Style, Cursor
-#from .ansitowin32 import AnsiToWin32
 from .mangenerator import Man
-__version__ = '0.1.0'
+import datetime
+__version__ = '0.2.0'
+__versiondate__ =datetime.date(2018,8,12)
 
