@@ -1,11 +1,13 @@
-/*! \mainpage TooManyFiles
+/*! \mainpage ManGenerator
 
 Introduction
 ============
 
-TooManyFiles is an admin script. Used to delete innecesary files finding a datetime pattern in filename
+ManGenerator is a python module, to generate man pages quickly
 
-The main web page is located <a src="https://too-many-files.sourceforge.io/">here</a>
+The main web page is located <a src="https://mangenerator.sourceforge.io/">here</a>
+
+I also use <a src="https://pypi.org/project/mangenerator/">https://pypi.org/project/mangenerator/</a> to distribute this software.
 
 Development
 ===========
@@ -15,19 +17,14 @@ Sourceforge
 ===========
 This project is hosted in SourceForge, so you can use the next services:
 
-- <a href="https://sourceforge.net/p/too-many-files/tickets/" target="_blank">Tickets</a>
+- <a href="https://sourceforge.net/p/mangenerator/tickets/" target="_blank">Tickets</a>
 
-Software used to develop TooManyFiles
+Software used to develop ManGenerator
 =====================================
 
 <a target="_blank" href="https://eric-ide.python-projects.org/index.html">Eric</a> is used as the main IDE
 
-TooManyFiles depends on the following software:
+ManGenerator depends on the following software:
 - <a target="_blank" href="https://www.python.org/">Python3</a>, as the main programming language.
-- <a target="_blank" href="https://pypi.org/project/colorama/">Colorama</a>, to give color to console output.
-
-
-
-
 
 */
