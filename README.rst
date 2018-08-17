@@ -21,6 +21,8 @@ Usage
 
 Changelog
 =========
+0.3.0
+  * Catalog is now inside the package
 0.2.0
   * Basic funcionality
 

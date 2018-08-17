@@ -1,6 +1,5 @@
 from mangenerator import __version__
 from setuptools import setup, Command
-from mangenerator import Man
 
 import datetime
 import gettext
@@ -36,7 +35,7 @@ class Uninstall(Command):
 
     def run(self):
         os.system("rm -Rf {}/mangenerator*".format(site.getsitepackages()[0]))
-        os.system("rm /usr/share/locale/es/LC_MESSAGES/mangenerator.mo")
+        os.system("rm /usr/bin/mangenerator*")
 
 class Doc(Command):
     description = "Update man pages and translations"
