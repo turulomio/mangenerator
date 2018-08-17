@@ -147,8 +147,7 @@ If you write more than one paragraph, start the other paragraphs with the .PP co
     def numberedList(self, arr, style="NumberedList"):
         pass
 
-
-if __name__ == "__main__":
+def main():
     doc=Man("libmangenerator")
     doc.setMetadata("LibManGenerator module",  1,   datetime.date.today(), "Mariano Muñoz", "This is a python module who writes easily a Man page")
     doc.setSynopsis("[ --help | --version ]")
@@ -162,3 +161,8 @@ if __name__ == "__main__":
     doc.paragraph("This is a level 3 indent in bold", 3, True)
     doc.save()
     doc.saveHTML()
+
+
+
+if __name__ == "__main__":
+    main()

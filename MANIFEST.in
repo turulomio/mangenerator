@@ -1,6 +1,7 @@
-include GPL-3.txt  
+include LICENSE.txt  
 recursive-include ./ *.py
-recursive-include locale *.po *.mo
+recursive-include locale *.po 
+recursive-include mangenerator *.mo
 recursive-include locale *.1
 prune __pycache__
 global-exclude *.pyc

@@ -52,7 +52,7 @@ class Doc(Command):
         #es
         os.system("xgettext -L Python --no-wrap --no-location --from-code='UTF-8' -o locale/mangenerator.pot *.py mangenerator/*.py")
         os.system("msgmerge -N --no-wrap -U locale/es.po locale/mangenerator.pot")
-        os.system("msgfmt -cv -o locale/es/LC_MESSAGES/mangenerator.mo locale/es.po")
+        os.system("msgfmt -cv -o mangenerator/locale/es/LC_MESSAGES/mangenerator.mo locale/es.po")
     ########################################################################
 
 with open('README.rst', encoding='utf-8') as f:
@@ -75,12 +75,17 @@ setup(name='mangenerator',
      author_email='turulomio@yahoo.es',
      license='GPL-3',
      packages=['mangenerator'],
-     data_files=[ ('/usr/share/locale/es/LC_MESSAGES/', ['locale/es/LC_MESSAGES/mangenerator.mo']),
+     data_files=[
                 ], 
+
+     entry_points = {'console_scripts': ['mangenerator_demo=mangenerator.mangenerator:main',
+                                        ],
+                    },
      cmdclass={'doxygen': Doxygen,
                'doc': Doc,
                'uninstall':Uninstall, 
               },
-      zip_safe=False
+      zip_safe=False,
+      include_package_data=True
 )
 
