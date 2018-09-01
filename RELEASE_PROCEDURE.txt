@@ -1,7 +1,7 @@
 Nueva release
 =============
 1) Cambiar la versión y la fecha en __init__.py
-2) Modificar el Changelog en el fichero README
+2) Modificar el Changelog en el fichero README.rst
 3) python3 setup.py doc. 
  ) lokalice es.po
  ) python3 setup.py doc

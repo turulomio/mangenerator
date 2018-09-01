@@ -133,8 +133,14 @@ If you write more than one paragraph, start the other paragraphs with the .PP co
 </body>
 </html>""".format(datetime.date.today())
 
-    def saveHTML(self):
-        f=open("{}.{}.html".format(self.filename, self.manlevel), "w")
+    ## Save HTML output to a path
+    ## @param newpath String with the path. If None it uses the man filename path, appending .html
+    def saveHTML(self, newpath=None):
+        if newpath==None:
+            path="{}.{}.html".format(self.filename, self.manlevel)
+        else:
+            path=newpath
+        f=open(path, "w")
         f.write(self.html)
         f.close()
 
