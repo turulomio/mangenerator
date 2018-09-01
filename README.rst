@@ -5,7 +5,7 @@ Doxygen documentation:
 Main developer web page:
     http://turulomio.users.sourceforge.net/en/proyectos.html
 Gentoo ebuild
-    You can find a Gentoo ebuild in https://sourceforge.net/p/mangenerator/code/HEAD/tree/myportage/dev-python/mangenerator/
+    You can find a Gentoo ebuild in https://sourceforge.net/p/xulpymoney/code/HEAD/tree/myportage/dev-python/mangenerator/
 
 Description
 ===========
